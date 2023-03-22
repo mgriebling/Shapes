@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world! ℃¼³π±∑√ƛ×∛")
-            TextShape(string: "Hello, symbols: ℃¼³π±∑√ƛ×∛", font: .systemFont(ofSize: 12))
+        VStack(alignment: .leading) {
+            Text("Text Symbols:  ℃¼³π±∑√ƛ×∛↑+−∡÷⊕⌫⅞⅟₂∫∰")
+                .font(.system(size: 24, weight: .light))
+            TextShape(string: "Graphic Symbols: ℃¼³π±∑√ƛ×∛↑+−∡÷⊕⌫⅞⅟₂∫∰",
+                      font: .systemFont(ofSize: 24, weight: .regular))
         }
         .padding()
     }

@@ -60,8 +60,8 @@
 			children = (
 				475D197C29CB45C700911946 /* ShapesApp.swift */,
 				475D199329CB466F00911946 /* ContentView.swift */,
-				475D198B29CB45E100911946 /* PathConversions.swift */,
 				475D198D29CB45E100911946 /* ShapeFactory.swift */,
+				475D198B29CB45E100911946 /* PathConversions.swift */,
 				475D198C29CB45E100911946 /* String-Bezier.swift */,
 				475D198029CB45C800911946 /* Assets.xcassets */,
 				475D198229CB45C800911946 /* Shapes.entitlements */,
