@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		475D197D29CB45C700911946 /* ShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D197C29CB45C700911946 /* ShapesApp.swift */; };
-		475D197F29CB45C700911946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D197E29CB45C700911946 /* ContentView.swift */; };
 		475D198129CB45C800911946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475D198029CB45C800911946 /* Assets.xcassets */; };
 		475D198529CB45C800911946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475D198429CB45C800911946 /* Preview Assets.xcassets */; };
+		475D198F29CB45E100911946 /* PathConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D198B29CB45E100911946 /* PathConversions.swift */; };
+		475D199029CB45E100911946 /* String-Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D198C29CB45E100911946 /* String-Bezier.swift */; };
+		475D199129CB45E100911946 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D198D29CB45E100911946 /* ShapeFactory.swift */; };
+		475D199429CB466F00911946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D199329CB466F00911946 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		475D197929CB45C700911946 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475D197C29CB45C700911946 /* ShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesApp.swift; sourceTree = "<group>"; };
-		475D197E29CB45C700911946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		475D198029CB45C800911946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475D198229CB45C800911946 /* Shapes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shapes.entitlements; sourceTree = "<group>"; };
 		475D198429CB45C800911946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		475D198B29CB45E100911946 /* PathConversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathConversions.swift; sourceTree = "<group>"; };
+		475D198C29CB45E100911946 /* String-Bezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Bezier.swift"; sourceTree = "<group>"; };
+		475D198D29CB45E100911946 /* ShapeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
+		475D199329CB466F00911946 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				475D197C29CB45C700911946 /* ShapesApp.swift */,
-				475D197E29CB45C700911946 /* ContentView.swift */,
+				475D199329CB466F00911946 /* ContentView.swift */,
+				475D198B29CB45E100911946 /* PathConversions.swift */,
+				475D198D29CB45E100911946 /* ShapeFactory.swift */,
+				475D198C29CB45E100911946 /* String-Bezier.swift */,
 				475D198029CB45C800911946 /* Assets.xcassets */,
 				475D198229CB45C800911946 /* Shapes.entitlements */,
 				475D198329CB45C800911946 /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				475D197F29CB45C700911946 /* ContentView.swift in Sources */,
+				475D198F29CB45E100911946 /* PathConversions.swift in Sources */,
+				475D199429CB466F00911946 /* ContentView.swift in Sources */,
 				475D197D29CB45C700911946 /* ShapesApp.swift in Sources */,
+				475D199029CB45E100911946 /* String-Bezier.swift in Sources */,
+				475D199129CB45E100911946 /* ShapeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
